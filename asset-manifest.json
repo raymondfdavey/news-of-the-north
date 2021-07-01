@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/news-of-the-north/static/css/main.a3eaf6ba.chunk.css",
+    "main.js": "/news-of-the-north/static/js/main.2c5d8d52.chunk.js",
+    "main.js.map": "/news-of-the-north/static/js/main.2c5d8d52.chunk.js.map",
+    "runtime-main.js": "/news-of-the-north/static/js/runtime-main.db7f442d.js",
+    "runtime-main.js.map": "/news-of-the-north/static/js/runtime-main.db7f442d.js.map",
+    "static/js/2.637cc818.chunk.js": "/news-of-the-north/static/js/2.637cc818.chunk.js",
+    "static/js/2.637cc818.chunk.js.map": "/news-of-the-north/static/js/2.637cc818.chunk.js.map",
+    "index.html": "/news-of-the-north/index.html",
+    "precache-manifest.83d31f3c89c682b6e7214fa19e40c958.js": "/news-of-the-north/precache-manifest.83d31f3c89c682b6e7214fa19e40c958.js",
+    "service-worker.js": "/news-of-the-north/service-worker.js",
+    "static/css/main.a3eaf6ba.chunk.css.map": "/news-of-the-north/static/css/main.a3eaf6ba.chunk.css.map",
+    "static/js/2.637cc818.chunk.js.LICENSE.txt": "/news-of-the-north/static/js/2.637cc818.chunk.js.LICENSE.txt",
+    "static/media/down.png": "/news-of-the-north/static/media/down.92e2bea7.png",
+    "static/media/up.png": "/news-of-the-north/static/media/up.995e52e1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db7f442d.js",
+    "static/js/2.637cc818.chunk.js",
+    "static/css/main.a3eaf6ba.chunk.css",
+    "static/js/main.2c5d8d52.chunk.js"
+  ]
+}
