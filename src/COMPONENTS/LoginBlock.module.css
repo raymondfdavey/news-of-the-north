@@ -1,0 +1,44 @@
+.notLoggedBox {
+  padding-bottom: 0.5em;
+  border-bottom: solid 1px #b80c09;
+  text-align: right;
+}
+
+.wholeLoginBox {
+  font-size: large;
+  width: 30%;
+}
+
+.loggedInText {
+  border-bottom: solid 1px #b80c09;
+  padding-bottom: 0.5em;
+  text-align: right;
+}
+
+button {
+  align-self: flex-end;
+}
+
+.loggedInBox {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  height: 2em;
+  margin: 0.5em;
+  margin-bottom: 1em;
+  border: 0;
+  border-radius: 4px;
+  width: 45%;
+}
+
+.button {
+  padding: 0.5em 1.5em;
+  border-radius: 5px;
+  border: #b80c09;
+}
+
+.button:hover {
+  box-shadow: #b80c09 2px 2px;
+}

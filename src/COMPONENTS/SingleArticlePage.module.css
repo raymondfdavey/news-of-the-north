@@ -1,0 +1,61 @@
+.singleArticleBox {
+  box-shadow: gray 5px 5px 3px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 25px;
+  margin-top: 2%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #f8f8ff;
+}
+
+.wholeSingleArticlePage {
+  overflow: scroll;
+  height: 73vh;
+}
+.comments {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.singleArticleBox h1 {
+  padding: 1px;
+  border-bottom: 1px solid #b80c09;
+}
+.topRow {
+}
+.secondRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+.thirdRow {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+}
+
+.fourthRow {
+  display: flex;
+  justify-content: flex-end;
+}
+.viewCommentsButton {
+  border: solid 1px gray;
+  border-radius: 3px;
+  background-color: lightblue;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.viewCommentsButton:hover {
+  border: solid 1px gray;
+  background-color: yellow;
+  cursor: pointer;
+}

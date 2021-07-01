@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8em;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0.5em;
+  font-size: 1.5em;
+  background-color: #e5e7e6;
+  border-bottom: 2px solid;
+  border-top: 2px solid;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tagLine {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,98 @@
+.articleTile {
+  box-shadow: gray 5px 5px 3px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 25px;
+  margin-top: 2%;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  background-color: #f8f8ff;
+}
+.topRow {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1em;
+  font-size: 0.7em;
+}
+
+.topRow h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.secondRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+}
+
+.secondRow h2 {
+  padding: 0.2em;
+  margin: 0;
+}
+
+.thirdRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.voteButtons {
+  display: flex;
+}
+.voteButton,
+p {
+  margin: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+img {
+  max-width: 1em;
+  max-height: 1em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.voteSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.football {
+  max-height: 2.5em;
+  margin: 0;
+  font-size: smaller;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background-color: chocolate;
+}
+
+.coding {
+  max-height: 2.5em;
+  margin: 0;
+  font-size: smaller;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background-color: cornflowerblue;
+}
+
+.cooking {
+  max-height: 2.5em;
+  margin: 0;
+  font-size: smaller;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background-color: lightgreen;
+}

@@ -1,0 +1,25 @@
+.sideBar {
+  padding: 3em;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b80c09;
+  font-size: 1vw;
+  color: #fffdd0;
+  width: 30%;
+  height: 62vh;
+  outline: 1px dashed #fffdd0;
+  outline-offset: -10px;
+  border-right: 2px solid black;
+  font-size: 0.7em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.allArticles {
+  color: #fffdd0;
+}

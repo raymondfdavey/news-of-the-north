@@ -1,0 +1,30 @@
+.commentBox {
+  box-shadow: gray 5px 5px 3px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 25px;
+  margin-top: 2%;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  background-color: #ffad05;
+  width: 70%;
+}
+
+.topLine {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.secondLine {
+  display: flex;
+  justify-content: space-between;
+}
+.thirdLine {
+  display: flex;
+  justify-content: space-between;
+}

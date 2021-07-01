@@ -1,0 +1,38 @@
+.dropperContainer {
+  margin: 1em;
+}
+
+.dropdownTitle {
+  width: 100%;
+}
+
+.dropdownList {
+  color: #fffdd0;
+}
+
+.dropdownListOpen {
+  background-color: #fffdd0;
+  color: red;
+  font-size: inherit;
+}
+
+.dropdownListItemOpen {
+  font-size: 1.5em;
+}
+.dropdownListItemOpen:hover {
+  background-color: red;
+}
+.dropdownListItemOpen:active {
+  background-color: red;
+}
+
+.dropperContainerOpen {
+  border: solid 2px;
+  width: 100%;
+  text-align: center;
+}
+
+.selected {
+  font-size: 1.5em;
+  background-color: red;
+}

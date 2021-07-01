@@ -1,0 +1,6 @@
+.articlesSection {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  overflow: auto;
+}

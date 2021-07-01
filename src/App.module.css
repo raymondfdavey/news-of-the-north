@@ -1,0 +1,17 @@
+.mainBody {
+  display: flex;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
+}
+
+.bannerHead {
+  font-size: 4.5vw;
+}
+
+.login {
+  font-size: 2vw;
+}

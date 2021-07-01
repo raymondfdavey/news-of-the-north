@@ -1,0 +1,21 @@
+.newCommentForm {
+  display: flex;
+  flex-direction: column;
+
+  margin: 8px;
+}
+
+.newCommentForm textarea {
+  height: 5em;
+  border-radius: 10px;
+  width: 55em;
+}
+
+.button {
+  padding: 0.5em 1.5em;
+  border-radius: 5px;
+  border: #b80c09;
+}
+.button:hover {
+  box-shadow: #b80c09 2px 2px;
+}
