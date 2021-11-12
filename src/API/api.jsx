@@ -1,10 +1,10 @@
 import axios from "axios";
-const commonStart = "https://nc-news-rfd.herokuapp.com/api/";
+const commonStart = "https://news-of-the-north-server.herokuapp.com/api/";
 
 export const fetchCommentsById = id => {
   axios
     .get(
-      "https://nc-news-rfd.herokuapp.com/articles/" +
+      "https://news-of-the-north-server.herokuapp.com/articles/" +
         id +
         "/comments?sort_by=created_at"
     )
@@ -15,14 +15,14 @@ export const fetchCommentsById = id => {
 
 export const fetchArticleById = article_id => {
   axios
-    .get("https://nc-news-rfd.herokuapp.com/articles/" + article_id)
+    .get("https://news-of-the-north-server.herokuapp.com/articles/" + article_id)
     .then(({ data: { article } }) => article);
 };
 
 export const fetchAllArticles = (sortBy, orderBy) => {
   return axios
     .get(
-      "https://nc-news-rfd.herokuapp.com/api/articles?sort_by=" +
+      "https://news-of-the-north-server.herokuapp.com/api/articles?sort_by=" +
         sortBy +
         "&order=" +
         orderBy
@@ -35,7 +35,7 @@ export const fetchAllArticles = (sortBy, orderBy) => {
 export const fetchArticlesByParam = (param, value, sortBy, orderBy) => {
   return axios
     .get(
-      "https://nc-news-rfd.herokuapp.com/api/articles?" +
+      "https://news-of-the-north-server.herokuapp.com/api/articles?" +
         param +
         "=" +
         value +
@@ -87,6 +87,6 @@ export const deleteCommentFromDatabase = comment_id => {
 
 export const fetchAllTopics = () => {
   return axios
-    .get("https://nc-news-rfd.herokuapp.com/topics/")
+    .get("https://news-of-the-north-server.herokuapp.com/topics/")
     .then(({ data: { topics } }) => topics);
 };

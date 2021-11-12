@@ -92,7 +92,7 @@ class SingleArticlePage extends Component {
   componentDidMount() {
     axios
       .get(
-        "https://nc-news-rfd.herokuapp.com/articles/" + this.props.article_id
+        "https://news-of-the-north-server.herokuapp.com/articles/" + this.props.article_id
       )
       .then(({ data: { article } }) => {
         this.setState({

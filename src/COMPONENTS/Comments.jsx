@@ -72,7 +72,7 @@ class Comments extends Component {
   componentDidMount() {
     axios
       .get(
-        "https://nc-news-rfd.herokuapp.com/articles/" +
+        "https://news-of-the-north-server.herokuapp.com/articles/" +
           this.props.id +
           "/comments?sort_by=created_at"
       )
@@ -91,7 +91,7 @@ class Comments extends Component {
     ) {
       axios
         .get(
-          "https://nc-news-rfd.herokuapp.com/articles/" +
+          "https://news-of-the-north-server.herokuapp.com/articles/" +
             this.props.id +
             "/comments?sort_by=" +
             this.state.sortBy +
